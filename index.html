@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Bookshelf Apps</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/responsive.css">
+        </head>
+    <body>  
+            <!--header-->
+            <header>
+                <div class="header">
+                   <h1>Bookshelf Apps</h1>
+                   <p>Sugeng Rawuh :)</p>
+                </div>
+            </header>
+
+            <!--aside-->
+            <aside>
+                <!--tentang saya-->
+                <article class="about-me box-1">
+                    <header>
+                        <h1 class="judul-biodata">Biodata Diri</h1>
+                        <figure>
+                            <img src="assets/images/profil.png">
+                        </figure>
+                    </header>
+                    <section>
+                        <h2>Ahmad Yulian Dinata</h2>
+                        <p class="subtitle-biodata">Hello, I Am College Student Majoring In Informatics Engineering. Lived In North Bekasi City, Indonesia. Has A UI/UX Design And Front-End Developer Website.</p>
+                        <table>
+                            <tr>
+                                <th>Umur</th>
+                                <td>21 Tahun</td>
+                            </tr>
+                            <tr>
+                                <th>Hobi</th>
+                                <td>Menulis</td>
+                            </tr>
+                            <tr>
+                                <th>Pekerjaan</th>
+                                <td>Mahasiswa</td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </aside>
+
+            <main>
+                <section class="search-books">
+                    <h2>Cari Buku Disini</h2>
+                    <form id="cariBuku">
+                        <div class="cariBuku">
+                            <label for="mencariJudulBuku">Judul Buku</label>
+                            <input id="mencariJudulBuku" type="text" placeholder="Cari disini..." required>
+                        </div>
+                        <button id="bookSubmit" type="submit">Cari Buku</span></button>
+                    </form>
+                </section>
+
+                <section class="input_section">
+                    <h2>Masukkan Buku Baru</h2>
+                    <form id="inputBookshelf" action="#">
+                        <div class="input">
+                            <label for="judulBuku">Judul Buku</label>
+                            <input id="judulBuku" type="text" placeholder="Matahari Terbit dari Barat" required>
+                        </div>
+                        <div class="input">
+                            <label for="penulisBuku">Penulis</label>
+                            <input id="penulisBuku" type="text" placeholder="Ahmad Yulian Dinata" required>
+                        </div>
+                        <div class="input">
+                            <label for="tahunBuku">Tahun</label>
+                            <input id="tahunBuku" type="number" placeholder="2006" required>
+                        </div>
+                        <div class="input_inline">
+                            <label for="inputBookIsComplete">Selesai dibaca</label>
+                            <input id="checkBookIsComplete" type="checkbox">
+                        </div>
+                        <button id="bookSubmit" type="submit">Input Buku</span></button>
+                    </form>
+                </section>
+
+                <section class="bookshelf_apps">
+                    <h2>Belum selesai dibaca</h2>
+                    <div id="belumSelesaiDibaca" class="book_list"></div>
+                </section>
+                <section class="bookshelf_apps">
+                    <h2>Selesai dibaca</h2>
+                    <div id="sudahSelesaiDibaca" class="book_list"></div>
+                </section>
+            </main>
+
+            <!-- footer  -->
+            <footer>
+                <section class="footer">
+                    <div class="copyright">
+                        <h3>Copyright ©2021 | Submission Dicoding</h3>
+                    </div>
+                </section>
+            </footer>
+
+            <script src="assets/javascript/localStorage.js"></script>
+            <script src="assets/javascript/DOM.js"></script>
+            <script src="assets/javascript/main.js"></script>
+    </body>
+</html>

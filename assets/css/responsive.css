@@ -1,0 +1,83 @@
+/*mengatur responsivenya*/
+@media screen and (max-width:1200px)
+{
+    aside 
+    {
+        width: 100%;
+        padding: 10px;
+        padding-left: 10px;
+    }
+    html
+    {
+      font-size: 55%;
+    }
+    .header h1
+    {
+      font-size: 30px;
+    }
+    .header p
+    {
+      font-size: 20px;
+    }
+    .search-books h2
+    {
+      font-size: 23px;
+      padding-bottom: 20px;
+    }
+    .input_section h2
+    {
+      font-size: 23px;
+      padding-bottom: 20px;
+    }
+    .input_section > form > button
+    {
+      width: auto;
+    }
+    .input_inline .book-complete
+    {
+      font-size: 15px;
+      text-align: center;
+    }
+    .bookshelf_apps > .book_list > .item_books
+    {
+      font-size: 14px;
+    }
+    .bookshelf_apps h2
+    {
+      font-size: 23px;
+      padding-bottom: 20px;
+    }
+    .copyright
+    {
+      font-size: 10px;
+    }
+}
+@media screen and (max-width:991px)
+{
+    section
+    {
+      padding: 2rem;
+    }
+    .about-me section h2
+    {
+      font-size: 16px;
+    }
+    .about-me section .subtitle-biodata
+    {
+      font-size: 15px;
+    }
+    .about-me section th
+    {
+      font-size: 14px;
+      text-align: center;
+    }
+    .about-me section td
+    {
+      font-size: 14px;
+      text-align: center;
+    }
+    .bookshelf_apps > .book_list > .item_books > button 
+    {
+      margin-top: 15px;
+    }
+}

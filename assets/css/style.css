@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+main 
+{
+    padding: 16px;
+    overflow: auto;
+    border-radius: 75px;
+    margin: 0 auto;
+}
+
+body 
+{
+   margin: 0;
+   padding: 0;
+}
+
+*
+{
+  font-family: 'Poppins', sans-serif;
+  margin: 0; 
+  box-sizing: border-box;
+  text-transform: capitalize; 
+  border: none;
+  padding: 0;
+  outline: none;
+  transition: all .2s linear;
+  text-decoration: none;
+}
+
+html
+{
+  font-size: 62.5%;
+  scroll-padding-top: 60px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section
+{
+  padding: 20px 9%;
+}
+
+/* header  */
+.header 
+{
+   padding: 60px;
+   background-color: #334257;
+   background-image: url('../../assets/images/header-bg.png');
+   text-align: center;
+   color: white;
+}
+
+.header h1
+{
+  font-size: 50px;
+}
+
+.header p
+{
+  font-size: 35px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+/* aside */
+aside 
+{
+   float: right;
+   width: 30%;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+/* about me*/
+.box-1
+{
+    box-shadow: 0 4px 8px 0 #334257;
+    border-radius: 10px;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.about-me header 
+{
+    text-align: center;
+}
+
+.about-me header .judul-biodata
+{
+    text-align: center;
+    font-size: 25px;
+    color: #595959;
+}
+
+.about-me img 
+{
+    width: 150px;
+    padding-top: 20px;
+}
+
+.about-me section h2
+{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.about-me section .subtitle-biodata
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.about-me section th
+{
+  font-size: 15px;
+  padding: 10px;
+}
+
+.about-me section td
+{
+  font-size: 15px;
+  padding: 10px;
+}
+
+/* cari buku */
+.search-books 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.search-books > form > button 
+{
+    background-color: #476072;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    display: block;
+    width: auto;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-books > form > button > span 
+{
+    font-weight: bold;
+}
+
+.search-books > form > .cariBuku > input 
+{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.search-books > h2 
+{
+    text-align: right;
+    font-size: 34px;
+    color: #476072;
+}
+
+.search-books > form > .cariBuku
+{
+    margin: 8px 0;
+}
+
+.search-books > form > .cariBuku > label 
+{
+    color: #476072;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search-books > form > .input_inline 
+{
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.search-books > form > .input_inline > label 
+{
+    color: #476072;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* masukkan buku */
+.input_section 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.input_section > form > button 
+{
+    background-color: #476072;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    display: block;
+    width: auto;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section > form > button > span 
+{
+    font-weight: bold;
+}
+
+.input_section > form > .input > input 
+{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input_section > h2 
+{
+    text-align: right;
+    font-size: 34px;
+    color: #476072;
+}
+
+.input_section > form > .input 
+{
+    margin: 8px 0;
+}
+
+.input_section > form > .input > label 
+{
+    color: #476072;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input_section > form > .input_inline 
+{
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.input_section > form > .input_inline > label 
+{
+    color: #476072;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.bookshelf_apps > .book_list > .item_books > h3, p 
+{
+  margin: 8px 0;
+}
+
+.bookshelf_apps 
+{
+  margin: 16px 0 0 0;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.bookshelf_apps > h2 
+{
+  text-align: right;
+  font-size: 34px;
+  color: #476072;
+}
+
+.bookshelf_apps > .book_list 
+{
+  padding: 16px;
+}
+
+.bookshelf_apps > .book_list > .item_books 
+{
+    box-shadow: 0 4px 8px 0 #334257;
+    border-radius: 10px;
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.bookshelf_apps > .book_list > .item_books > button 
+{
+  border: 0;
+  padding: 7px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: smaller;
+}
+
+.bookshelf_apps > .book_list > .item_books > button:hover 
+{
+  opacity: 1;
+}
+
+.btn_read 
+{
+  background-color: #7DEDFF;
+  color: #fff;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.btn_deleted 
+{
+  background-color: #D54C4C;
+  color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* footer  */
+.footer
+{
+  background: #343A40;
+}
+
+.copyright
+{
+  color: #fff;
+  border-top: .1px solid rgba(255,255,255,.2);
+  font-size: 15px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
